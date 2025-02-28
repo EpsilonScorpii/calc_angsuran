@@ -1,0 +1,26 @@
+<!-- index.html -->
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kalkulator Angsuran</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h2>Kalkulator Angsuran</h2>
+        <label for="bpp_pokok">BPP Pokok:</label>
+        <input type="number" id="bpp_pokok" placeholder="Masukkan BPP Pokok">
+        
+        <label for="bpp_sks">BPP SKS:</label>
+        <input type="number" id="bpp_sks" placeholder="Masukkan BPP SKS">
+        
+        <button onclick="hitungAngsuran()">Hitung Angsuran</button>
+        
+        <h3>Hasil Angsuran:</h3>
+        <div id="hasil"></div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
